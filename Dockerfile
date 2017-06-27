@@ -1,12 +1,7 @@
 # Lastpass cli
 #
 # Usage:
-# lpass () {
-#   docker run -it --rm \
-#     -v /etc/localtime:/etc/localtime \
-#     -v $HOME/.lpass:/root/.lpass \
-#     dogik/lpass "$@"
-# }
+# alias lpass="docker run -v $HOME/.lpass:/root/.lpass -v /etc/localtime:/etc/localtime -i -t --rm dogik/lastpass-cli"
 
 FROM ubuntu
 MAINTAINER Sergey Dogotar <sergey.dogotar@gmail.com>
