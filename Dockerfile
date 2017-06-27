@@ -5,7 +5,7 @@
 #   docker run -it --rm \
 #     -v /etc/localtime:/etc/localtime \
 #     -v $HOME/.lpass:/root/.lpass \
-#     markhuge/lastpass "$@"
+#     dogik/lpass "$@"
 # }
 
 FROM ubuntu
